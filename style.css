@@ -198,6 +198,37 @@ main {
   list-style: none;
 }
 
+/* Blog Section */
+.blog-list {
+  display: grid;
+  gap: 2rem;
+}
+
+.blog-post {
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
+  background-color: #fff;
+}
+
+.blog-post h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.blog-meta {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 1rem;
+}
+
+.blog-post p {
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+
 .philosophy-list li {
   padding: 1rem 0;
   border-bottom: 1px solid var(--color-border);
